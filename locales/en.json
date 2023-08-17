@@ -1,0 +1,29 @@
+{
+  "errors": {
+    "401": "Smappee API credentials are incorrect",
+    "403": "Smappee API has denied access to this device",
+    "404": "Device not found in Smappee account",
+    "50x": "Smappee API is unavailable",
+    "clientId": "Enter a valid client ID",
+    "clientSecret": "Enter a valid client secret",
+    "led": "LED brightness is not supported by this device",
+    "network": "Smappee API is unreachable",
+    "unavailable": "Device is unavailable",
+    "unknown": "An unknown error has occurred"
+  },
+  "notifications":  {
+    "water_capability_updated": "Water capability updated for **__name__**. Check your flows."
+  },
+  "service": {
+    "error": "The Smappee __service__ throws an error, the device may not work as expected.",
+    "disconnected": "Connection to Smappee __service__ has been lost, the device may not work as expected.",
+    "offline": "Cannot connect to the Smappee __service__, check the internet connection.",
+    "reconnect": "Reconnecting to the Smappee __service__..."
+  },
+  "warnings": {
+    "disconnected": "Device is disconnected, the device may not work as expected.",
+    "unreachable": "Device is unreachable, the device may not work as expected."
+  },
+  "api": "API",
+  "mqtt": "message service"
+}
